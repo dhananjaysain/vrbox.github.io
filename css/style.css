@@ -1,0 +1,462 @@
+@charset "utf-8";
+body {margin: 0px;padding: 0px; font-family:Arial, Helvetica, sans-serif; font-size:18px;}
+
+h1, h2, h3, h4, h5, h6, p, a, ol, ul, span, textfield, textarea, radio, input, checkbox, strong{ margin:0px; padding:0px;}
+
+a{ text-decoration:none;}
+img{ border:none;}
+a, img{ border:none;}
+
+
+/****************************************************************************************************************************/
+header, nav, hgroup, figure, figcaption, audio, video, aside, article, footer, section{ margin:0px; padding:0px; display:block;}
+/****************************************************************************************************************************/
+.wrap{ width:1290px; margin:0 auto 0 auto;}
+.main{ width:100%; float:left;}
+.header{ width:100%; float:left; background:url(../images/banner.png) center top no-repeat; }
+.header hgroup{ width:20%; float:left; padding:20px 0 0 0}
+.header nav{ width:35%; float:left; margin:0 0 0 440px}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;}
+.header nav ul li a{ font-family:Rubik, "Rubik Black", "Rubik Light"; font-size:17px; color:#FFF;  display:block; padding:0 15px 0 15px; margin:49px 10px 0 0;}
+.header nav ul li a:hover{ color:#ea3266;}
+.header aside{ width:10%; float:right; padding:35px 0 0 0;}
+.header aside a{ width:126px; height:47px; color:#FFF; font-family:Roboto; font-size:17px; display:block; line-height:47px; text-align:center;background:#ea3266; border-radius:25px;}
+.header aside a:hover{ }
+
+/**********************************************************************************************************************/
+.utra{ width:100%; float:left;}
+.utra article{ width:60%; float:left; padding:138px 0 0 0;}
+.utra article h1{ font-family: "Rubik Medium";font-size:66px; color:#FFF; padding:0 0 10px 0;}
+.utra article h1 span{ color:#ea3266;}
+.utra article h2 { font-family:"Rubik Light"; font-size:66px; color:#FFF;line-height:67px; padding:0px 0 10px 0;}
+.utra article p{font-family:"Rubik Light"; font-size:22px;line-height:28px;color:#FFF}
+.utra a{ font-family: Roboto; font-size:12px; color:#FFF; background:url(../images/btn.png) left top no-repeat;  height:59px; display:block; padding:0 0 0 80px; line-height:59px; margin:30px 0 0 0;}
+
+.btn{ width:53%; float:left; padding:149px 0 20px 47%}
+.btn a{ width:18px; height:18px; display:block; border-radius:50%; margin:0 10px 0 0; float:left; border:#FFF solid 2px;}
+.btn a.active{ background:#ea3266; }
+.btn a:hover{background:#ea3266;}
+
+
+/********************************************************************************************************************************************/
+.vr{ width:100%; float:left; background:url(../images/ONE.png) center top no-repeat; padding:0 0 150px 0;}
+.vr h1{ font-family:"Rubik Light"; font-size:66px; color:#FFF; text-align:center; padding:130px 0 111px 0;}
+.vr figure{width:100%;float:left;}
+.vr figure article{ width:30%;float:left; background:#303233; box-shadow:#000 0px 7px 50px  ;}
+.vr figure article h2{ text-align:center; padding:60px 0 30px 0;}
+.vr figure article h3 {font-family:"Rubik Light";color:#FFF; font-size:26px; text-align:center; padding: 0 0 18px 0}
+.vr figure article h3 span{ font-family:"Rubik Medium"; color:#FFF; font-weight:bold;padding:0 12px 0 0;}
+.vr figure article p{ font-family:"Rubik Light"; font-size:16px; color:#FFF; text-align:center; line-height:26px;} 
+.vr figure article a{ width:138px; height:47px; color:#FFF; font-family:Roboto; font-size:17px; display:block; line-height:47px; text-align:center;background:#ea3266; border-radius:25px; margin:40px  auto 60px  auto;}
+.gap{ margin:0 5% 0 5%;}
+
+/********************************************************************************************************************************************/
+.new{ width:100%; float:left; background:url(../images/service.png) center top no-repeat;}
+.new article{ width:57%; float:left; padding:92px 0 0;}
+.new aside{ width:37%; float:right; background:#442f3a; padding:160px 0 137px 3%;}
+.new aside h1{ font-family:"Rubik Light"; font-size:50px; color:#FFF; line-height:72px; padding:0 0 60px 0;}
+.new aside h1 span{ display:block; font-family:"Rubik Medium";}
+.new aside p{ font-family:"Rubik Light"; font-size:17px; color:#FFF; line-height:25px;}
+.new aside a{width:138px; height:47px; color:#FFF; font-family:Roboto; font-size:17px; display:block; line-height:47px; text-align:center;background:#ea3266; border-radius:25px; margin:40px 0 0;}
+/********************************************************************************************************************************************/
+.what{ width:100%; float:left; background:#1c1e20;}
+.what h1{ text-align:center; font-family:"Rubik Light"; font-size:72px; color:#FFF; padding:84px 0 165px 0 }
+.what h2{  text-align:center;}
+.what figcaption{ width:90%; float:left; padding:99px 0 105px 10%}
+.what figcaption figure{ width:10%; float:left ; margin:0 110px 0 0;  border-radius:25px}
+.what figcaption figure ul { list-style:none; margin:0px; padding:0px;}
+.what figcaption figure ul li{ float:left;}
+.what figcaption figure ul li a{ font-family:"Rubik Light"; font-size:15px; color:#FFF; text-align:center; display:block; padding: 70px 0 20px 0;}
+.what figcaption figure:hover{background:#15181c;}
+.what figcaption figure ul li a.box{ background:url(../images/box.png) center 10px no-repeat;}
+.what figcaption figure ul li a.remort{ background:url(../images/remort.png)center 10px no-repeat; }
+.what figcaption figure ul li a.cable{ background:url(../images/cabal.png) center 10px no-repeat;}
+.what figcaption figure ul li a.battery{ background:url(../images/battery.png) center 10px no-repeat;}
+.what figcaption figure ul li a.video{ background: url(../images/video.png) center 10px no-repeat;}
+
+/********************************************************************************************************************************************/
+.broo{ width:100%; float:left; background:#15181c; padding:0 0 119px 0;}
+.broo article{ width:18%; float:left;}
+.broo article h1{ padding:92px 0 40px 0;}
+.broo article a{ font-family:"Rubik Light"; font-size:13px; color:#FFF; display:block; line-height:30px;}
+.broo aside{ width:65%; float:right; padding:92px 0 0 0;}
+.broo aside figure{ width:20%; float:left; margin:0 110px 0 0;}
+.broo aside figure h2{ font-family:"Rubik Light"; font-size:24px; color:#FFF; padding:0 0 23px 0;}
+.broo aside figure ul{ list-style:none; margin:0px; padding:0px;}
+.broo aside figure ul li{ }
+.broo aside figure ul li a{ font-family:"Rubik Light"; font-size:16px; color:#FFF; display:block; line-height:35px;}
+
+.end{ width:100%; float:left; background:#262d35;}
+.end h1{ font-family:"open Sans"; font-size:12px; color:#FFF; padding:30px 0 30px 0; text-align:center;}
+
+
+
+
+/********************************************************************************************************************************************/
+
+
+/********************************************************************************************************************************************/
+@media only screen and ( min-width:320px ) and ( max-width:480px)
+
+{.wrap{ width:94%; padding:0 3% 0 3%;}
+.main{ width:100%; float:left;}
+.header{ width:100%; float:left; background:url(../images/banner.png) center top no-repeat; }
+.header hgroup{ width:100%; float:left; padding:20px 0 0 0; text-align:center;}
+.header hgroup img{width:40%}
+.header nav{ width:100%; float:left; margin:0 0 0 0px; text-align:center; }
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:none; display:inline;}
+.header nav ul li a{ font-family:Rubik, "Rubik Black", "Rubik Light"; font-size:13px; color:#FFF;  display: inline-block; padding:0 6px 0 6px; margin:49px 8px 0 0; text-align:center;}
+.header nav ul li a:hover{ color:#ea3266;}
+.header aside{ width:100%; float:right; padding:35px 0 0 0;}
+.header aside a{ width:100px; height:37px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:37px; text-align:center;background:#ea3266; border-radius:25px; margin:0  auto 0  auto;}
+.header aside a:hover{ }
+
+
+	
+.utra{ width:100%; float:left;}
+.utra article{ width:100%; float:left; padding:100px 0 0 0; text-align:center;}
+.utra article h1{ font-family: "Rubik Medium";font-size:30px; color:#FFF; padding:0 0 10px 0;}
+.utra article h1 span{ color:#ea3266;}
+.utra article h2 { font-family:"Rubik Light"; font-size:25px; color:#FFF;line-height:30px; padding:0px 0 10px 0;}
+.utra article p{font-family:"Rubik Light"; font-size:12px;line-height:20px;color:#FFF; padding:0 25px 0 25px}
+.utra a{ font-family: Roboto; font-size:12px; color:#FFF; background:url(../images/btn.png) 30% top no-repeat;  height:59px; display:block; padding:0 0 0 80px; line-height:59px; margin:30px 0 0 0;}
+
+.btn{ width:60%; float:left; padding:149px 0 20px 40%;}
+.btn a{ width:13px; height:13px; display:block; border-radius:50%; margin:0 10px 0 0; float:left; border:#FFF solid 2px;}
+.btn a.active{ background:#ea3266; }
+.btn a:hover{background:#ea3266;}	
+	
+.vr{ width:100%; float:left; background:url(../images/ONE.png) center top repeat; padding:0 0 50px 0;}
+.vr h1{ font-family:"Rubik Light"; font-size:20px; color:#FFF; text-align:center; padding:130px 0 111px 0;}
+.vr figure{width:100%;float:left;}
+.vr figure article{ width:90%;float:left; background:#303233; box-shadow:#000 0px 7px 50px  ; padding:0 0% 0 0%; margin: 0  auto 40px  5%;}
+.vr figure article h2{ text-align:center; padding:30px 0 20px 0;}
+.vr figure article h2 img{ width:30%}
+.vr figure article h3 {font-family:"Rubik Light";color:#FFF; font-size:20px; text-align:center; padding: 0 0 18px 0}
+.vr figure article h3 span{ font-family:"Rubik Medium"; color:#FFF; font-weight:bold;padding:0 12px 0 0;}
+.vr figure article p{ font-family:"Rubik Light"; font-size:13px; color:#FFF; text-align:center; line-height:26px;} 
+.vr figure article a{ width:120px; height:47px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:47px; text-align:center;background:#ea3266; border-radius:25px; margin:30px  auto 30px  auto;}
+.gap{ margin:0 0% 0 0%;}
+	
+.new{ width:100%; float:left; background:url(../images/service.png) center top no-repeat;}
+.new article{ width:100%; float:left; padding:60px 0 60px 0; text-align:center;}
+.new article img{ width:98%;}
+.new aside{ width:100%; float:right; background:#442f3a; padding:120px 0 80px 0%; text-align:center;}
+.new aside h1{ font-family:"Rubik Light"; font-size:30px; color:#FFF; line-height:40px; padding:0 0 60px 0;}
+.new aside h1 span{ display:block; font-family:"Rubik Medium";}
+.new aside p{ font-family:"Rubik Light"; font-size:13px; color:#FFF; line-height:25px; padding:0 15px 0 15px}
+.new aside a{width:138px; height:47px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:47px; text-align:center;background:#ea3266; border-radius:25px; margin:40px 0 0; margin:40px auto 0 auto;}	
+	
+
+.what{ width:100%; float:left; background:#1c1e20;}
+.what h1{ text-align:center; font-family:"Rubik Light"; font-size:26px; color:#FFF; padding:84px 0 100px 0; }
+.what h2{  text-align:center;}
+.what h2 img{ width:80%;}
+.what figcaption{ width:100%; float:left; padding:99px 0 105px 0%;}
+.what figcaption figure{ width:28%; float:left ; margin:0 60px 20px 0;  border-radius:25px;}
+.what figcaption figure ul { list-style:none; margin:0px; padding:0px;}
+.what figcaption figure ul li{ float:none; display:inline;}
+.what figcaption figure ul li a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; text-align:center; display:inline-block; padding: 70px 0 20px 0;}
+.what figcaption figure:hover{background:#15181c;}
+.what figcaption figure ul li a:hover{ color:#F90;}
+.what figcaption figure ul li a.box{ background:url(../images/box.png) center 10px no-repeat;}
+.what figcaption figure ul li a.remort{ background:url(../images/remort.png)center 10px no-repeat; }
+.what figcaption figure ul li a.cable{ background:url(../images/cabal.png) center 10px no-repeat;}
+.what figcaption figure ul li a.battery{ background:url(../images/battery.png) center 10px no-repeat;}
+.what figcaption figure ul li a.video{ background: url(../images/video.png) center 10px no-repeat;}
+
+.broo{ width:100%; float:left; background:#15181c; padding:0 0 119px 0;}
+.broo article{ width:80%; float:left;}
+.broo article h1{ padding:50px 0 20px 0;}
+.broo article h1 img{ width:40%;}
+.broo article a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; display:block; line-height:30px;}
+.broo article a:hover{ color:#F90}
+.broo aside{ width:100%; float:right; padding:92px 0 0 0;}
+.broo aside figure{ width:100%; float:left; margin:0 110px 60px 0;}
+.broo aside figure h2{ font-family:"Rubik Light"; font-size:20px; color:#FFF; padding:0 0 23px 0;}
+.broo aside figure ul{ list-style:none; margin:0px; padding:0px;}
+.broo aside figure ul li{ }
+.broo aside figure ul li a{ font-family:"Rubik Light"; font-size:13px; color:#FFF; display:block; line-height:35px;}
+.broo aside figure ul li a:hover{ color:#F90;}
+.end{ width:100%; float:left; background:#262d35;}
+.end h1{ font-family:"open Sans"; font-size:10px; color:#FFF; padding:30px 0 30px 0; text-align:center;}
+
+	}
+/********************************************************************************************************************************************/
+
+@media only screen and ( min-width:481px) and ( max-width:767px)
+
+{
+.wrap{ width:96%; padding:0 2% 0 2%;}
+.main{ width:100%; float:left;}
+.header{ width:100%; float:left; background:url(../images/banner.png) center top no-repeat; }
+.header hgroup{ width:20%; float:left; padding:20px 0 0 0}
+.header nav{ width:45%; float:left; margin:0 0 0 140px}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;}
+.header nav ul li a{ font-family:Rubik, "Rubik Black", "Rubik Light"; font-size:13px; color:#FFF;  display:block; padding:0 10px 0 10px; margin:49px 10px 0 0;}
+.header nav ul li a:hover{ color:#ea3266;}
+.header aside{ width:auto; float:right; padding:40px 0 0 0;}
+.header aside a{ width:100px; height:35px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:35px; text-align:center;background:#ea3266; border-radius:25px;}
+.header aside a:hover{ }
+	
+
+.utra{ width:100%; float:left;}
+.utra article{ width:60%;float:left; padding:138px 0 0 0;}
+.utra article h1{ font-family: "Rubik Medium";font-size:40px; color:#FFF; padding:0 0 10px 0;}
+.utra article h1 span{ color:#ea3266;}
+.utra article h2 { font-family:"Rubik Light"; font-size:40px; color:#FFF;line-height:40px; padding:0px 0 10px 0;}
+.utra article p{font-family:"Rubik Light"; font-size:14px;line-height:20px;color:#FFF}
+.utra a{ font-family: Roboto; font-size:12px; color:#FFF; background:url(../images/btn.png) left top no-repeat;  height:59px; display:block; padding:0 0 0 80px; line-height:59px; margin:20px 0 0 0;}
+
+.btn{ width:53%; float:left; padding:149px 0 20px 47%}
+.btn a{ width:18px; height:18px; display:block; border-radius:50%; margin:0 10px 0 0; float:left; border:#FFF solid 2px;}
+.btn a.active{ background:#ea3266; }
+.btn a:hover{background:#ea3266;}
+
+
+.vr{ width:100%; float:left; background:url(../images/ONE.png) center top no-repeat; padding:0 0 150px 0;}
+.vr h1{ font-family:"Rubik Light"; font-size:30px; color:#FFF; text-align:center; padding:130px 0 111px 0;}
+.vr figure{width:100%;float:left;}
+.vr figure article{ width:32%;float:left; background:#303233; box-shadow:#000 0px 7px 50px  ;}
+.vr figure article h2{ text-align:center; padding:40px 0 20px 0;}
+.vr figure article h2 img{ width:35%;}
+.vr figure article h3 {font-family:"Rubik Light";color:#FFF; font-size:18px; text-align:center; padding: 0 0 18px 0}
+.vr figure article h3 span{ font-family:"Rubik Medium"; color:#FFF; font-weight:bold;padding:0 12px 0 0;}
+.vr figure article p{ font-family:"Rubik Light"; font-size:11px; color:#FFF; text-align:center; line-height:18px;} 
+.vr figure article a{ width:110px; height:35px; color:#FFF;font-family:Roboto; font-size:14px; display:block; line-height:35px; text-align:center;background:#ea3266; border-radius:25px; margin:30px  auto 30px  auto;}
+.gap{ margin:0 2% 0 2%;}
+
+
+
+.new{ width:100%; float:left; background:url(../images/service.png) center top no-repeat;}
+.new article{ width:51%; float:left; padding:50px 0 0 1%;}
+.new article img{ width:100%; }
+.new aside{ width:40%; float:right; background:#442f3a; padding:60px 0 50px 3%;}
+.new aside h1{ font-family:"Rubik Light"; font-size:22px; color:#FFF; line-height:35px; padding:0 0 30px 0;}
+.new aside h1 span{ display:block; font-family:"Rubik Medium";}
+.new aside p{ font-family:"Rubik Light"; font-size:11px; color:#FFF; line-height:18px;}
+.new aside a{width:110px; height:35px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:35px; text-align:center;background:#ea3266; border-radius:25px; margin:20px 0 0;}	
+
+
+.what{ width:100%; float:left; background:#1c1e20;}
+.what h1{ text-align:center; font-family:"Rubik Light"; font-size:30px; color:#FFF; padding:60px 0 70px 0 }
+.what h2{  text-align:center;}
+.what h2 img{ width:80%;}
+.what figcaption{ width:91%; float:left; padding:99px 0 105px 9%}
+.what figcaption figure{ width:13%; float:left ; margin:0 40px 0 0;  border-radius:25px}
+.what figcaption figure ul { list-style:none; margin:0px; padding:0px;}
+.what figcaption figure ul li{ float:left;}
+.what figcaption figure ul li a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; text-align:center; display:block; padding: 70px 0 20px 0;}
+.what figcaption figure:hover{background:#15181c;}
+.what figcaption figure ul li a.box{ background:url(../images/box.png) center 10px no-repeat;}
+.what figcaption figure ul li a.remort{ background:url(../images/remort.png)center 10px no-repeat; }
+.what figcaption figure ul li a.cable{ background:url(../images/cabal.png) center 10px no-repeat;}
+.what figcaption figure ul li a.battery{ background:url(../images/battery.png) center 10px no-repeat;}
+.what figcaption figure ul li a.video{ background: url(../images/video.png) center 10px no-repeat;}
+
+
+.broo{ width:100%; float:left; background:#15181c; padding:0 0 119px 0;}
+.broo article{ width:25%; float:left;}
+.broo article h1{ padding:50px 0 20px 0;}
+.broo article h1 img{ width:80%;}
+.broo article a{ font-family:"Rubik Light"; font-size:11px; color:#FFF; display:block; line-height:25px;}
+.broo aside{ width:65%; float:right; padding:70px 0 0 0;}
+.broo aside figure{ width:20%; float:left; margin:0 50px 0 0;}
+.broo aside figure h2{ font-family:"Rubik Light"; font-size:18px; color:#FFF; padding:0 0 17px 0;}
+.broo aside figure ul{ list-style:none; margin:0px; padding:0px;}
+.broo aside figure ul li{ }
+.broo aside figure ul li a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; display:block; line-height:28px;}
+
+.end{ width:100%; float:left; background:#262d35;}
+.end h1{ font-family:"open Sans"; font-size:12px; color:#FFF; padding:30px 0 30px 0; text-align:center;}
+
+
+	
+	} 
+
+/*******************************************************************************************************************************************/
+
+@media only screen and ( min-width:768px) and ( max-width:1024px)
+
+{	
+
+.wrap{ width:96%; padding:0 2% 0 2%}
+.main{ width:100%; float:left;}
+.header{ width:100%; float:left; background:url(../images/banner.png) center top no-repeat; }
+.header hgroup{ width:20%; float:left; padding:20px 0 0 0}
+.header nav{ width:45%; float:left; margin:0 0 0 150px}
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:left;}
+.header nav ul li a{ font-family:Rubik, "Rubik Black", "Rubik Light"; font-size:13px; color:#FFF;  display:block; padding:0 10px 0 10px; margin:49px 9px 0 0;}
+.header nav ul li a:hover{ color:#ea3266;}
+.header aside{ width:auto; float:right; padding:35px 0 0 0;}
+.header aside a{ width:108px; height:40px; color:#FFF; font-family:Roboto; font-size:13px; display:block; line-height:40px; text-align:center;background:#ea3266; border-radius:25px;}
+.header aside a:hover{ }
+
+.utra{ width:100%; float:left;}
+.utra article{ width:60%; float:left; padding:138px 0 0 0;}
+.utra article h1{ font-family: "Rubik Medium";font-size:40px; color:#FFF; padding:0 0 10px 0;}
+.utra article h1 span{ color:#ea3266;}
+.utra article h2 { font-family:"Rubik Light"; font-size:40px; color:#FFF;line-height:40px; padding:0px 0 10px 0;}
+.utra article p{font-family:"Rubik Light"; font-size:14px;line-height:18px;color:#FFF}
+.utra a{ font-family: Roboto; font-size:12px; color:#FFF; background:url(../images/btn.png) left top no-repeat;  height:59px; display:block; padding:0 0 0 80px; line-height:59px; margin:30px 0 0 0;}
+
+.btn{ width:53%; float:left; padding:149px 0 20px 47%}
+.btn a{ width:14px; height:14px; display:block; border-radius:50%; margin:0 10px 0 0; float:left; border:#FFF solid 2px;}
+.btn a.active{ background:#ea3266; }
+.btn a:hover{background:#ea3266;}
+
+.vr{ width:100%; float:left; background:url(../images/ONE.png) center top no-repeat; padding:0 0 80px 0;}
+.vr h1{ font-family:"Rubik Light"; font-size:30px; color:#FFF; text-align:center; padding:90px 0 80px 0;}
+.vr figure{width:100%;float:left;}
+.vr figure article{ width:32%;float:left; background:#303233; box-shadow:none  ;}
+.vr figure article h2{ text-align:center; padding:30px 0 30px 0;}
+.vr figure article h2 img{ width:35%;}
+.vr figure article h3 {font-family:"Rubik Light";color:#FFF; font-size:18px; text-align:center; padding: 0 0 18px 0}
+.vr figure article h3 span{ font-family:"Rubik Medium"; color:#FFF; font-weight:bold;padding:0 12px 0 0;}
+.vr figure article p{ font-family:"Rubik Light"; font-size:12px; color:#FFF; text-align:center; line-height:14px;} 
+.vr figure article a{ width:120px; height:40px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:40px; text-align:center;background:#ea3266; border-radius:25px; margin:20px  auto 30px  auto;}
+.gap{ margin:0 2% 0 2%;}
+
+.new{ width:100%; float:left; background:url(../images/service.png) center top no-repeat;}
+.new article{ width:57%; float:left; padding:92px 0 0 0;}
+.new article img{ width:95%;}
+.new aside{ width:37%; float:right; background:#442f3a; padding:120px 0 120px 3%;}
+.new aside h1{ font-family:"Rubik Light"; font-size:30px; color:#FFF; line-height:35px; padding:0 0 20px 0;}
+.new aside h1 span{ display:block; font-family:"Rubik Medium";}
+.new aside p{ font-family:"Rubik Light"; font-size:11px; color:#FFF; line-height:20px;}
+.new aside a{width:120px; height:40px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:40px; text-align:center;background:#ea3266; border-radius:25px; margin:20px 0 0 0;}
+
+
+.what{ width:100%; float:left; background:#1c1e20;}
+.what h1{ text-align:center; font-family:"Rubik Light"; font-size:30px; color:#FFF; padding:84px 0 165px 0 }
+.what h2{  text-align:center;}
+.what h2 img{ width:80%;}
+.what figcaption{ width:85%; float:left; padding:99px 0 105px  15%;}
+.what figcaption figure{ width:13%; float:left ; margin:0 30px 0 0;  border-radius:25px}
+.what figcaption figure ul { list-style:none; margin:0px; padding:0px;}
+.what figcaption figure ul li{ float:left;}
+.what figcaption figure ul li a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; text-align:center; display:block; padding: 70px 0 20px 0;}
+.what figcaption figure:hover{background:#15181c;}
+.what figcaption figure ul li a.box{ background:url(../images/box.png) center 10px no-repeat;}
+.what figcaption figure ul li a.remort{ background:url(../images/remort.png)center 10px no-repeat; }
+.what figcaption figure ul li a.cable{ background:url(../images/cabal.png) center 10px no-repeat;}
+.what figcaption figure ul li a.battery{ background:url(../images/battery.png) center 10px no-repeat;}
+.what figcaption figure ul li a.video{ background: url(../images/video.png) center 10px no-repeat;}
+
+
+.broo{ width:100%; float:left; background:#15181c; padding:0 0 119px 0;}
+.broo article{ width:24%; float:left;}
+.broo article h1{ padding:92px 0 20px 0;}
+.broo article h1 img{ width:80%;}
+.broo article a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; display:block; line-height:30px;}
+.broo aside{ width:65%; float:right; padding:92px 0 0 0;}
+.broo aside figure{ width:20%; float:left; margin:0 60px 0 0;}
+.broo aside figure h2{ font-family:"Rubik Light"; font-size:20px; color:#FFF; padding:0 0 18px 0;}
+.broo aside figure ul{ list-style:none; margin:0px; padding:0px;}
+.broo aside figure ul li{ }
+.broo aside figure ul li a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; display:block; line-height:28px;}
+
+.end{ width:100%; float:left; background:#262d35;}
+.end h1{ font-family:"open Sans"; font-size:12px; color:#FFF; padding:30px 0 30px 0; text-align:center;}
+
+
+
+}
+/************************************************************************************************************************************/
+
+
+@media only screen and ( min-width:360px ) and ( max-width:640px)
+
+{
+.wrap{ width:94%; padding:0 3% 0 3%;}
+.main{ width:100%; float:left;}
+.header{ width:100%; float:left; background:url(../images/banner.png) center top no-repeat; }
+.header hgroup{ width:100%; float:left; padding:20px 0 0 0; text-align:center;}
+.header hgroup img{width:40%}
+.header nav{ width:100%; float:left; margin:0 0 0 0px; text-align:center; }
+.header nav ul{ list-style:none; margin:0px; padding:0px;}
+.header nav ul li{ float:none; display:inline;}
+.header nav ul li a{ font-family:Rubik, "Rubik Black", "Rubik Light"; font-size:13px; color:#FFF;  display: inline-block; padding:0 6px 0 6px; margin:49px 8px 0 0; text-align:center;}
+.header nav ul li a:hover{ color:#ea3266;}
+.header aside{ width:100%; float:right; padding:35px 0 0 0;}
+.header aside a{ width:100px; height:37px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:37px; text-align:center;background:#ea3266; border-radius:25px; margin:0  auto 0  auto;}
+.header aside a:hover{ }
+
+
+	
+.utra{ width:100%; float:left;}
+.utra article{ width:100%; float:left; padding:100px 0 0 0; text-align:center;}
+.utra article h1{ font-family: "Rubik Medium";font-size:35px; color:#FFF; padding:0 0 10px 0;}
+.utra article h1 span{ color:#ea3266;}
+.utra article h2 { font-family:"Rubik Light"; font-size:25px; color:#FFF;line-height:30px; padding:0px 0 10px 0;}
+.utra article p{font-family:"Rubik Light"; font-size:12px;line-height:20px;color:#FFF; padding:0 25px 0 25px}
+.utra a{ font-family: Roboto; font-size:12px; color:#FFF; background:url(../images/btn.png) 30% top no-repeat;  height:59px; display:block; padding:0 0 0 60px; line-height:59px; margin:20px 0 0 0;}
+
+.btn{ width:60%; float:left; padding:149px 0 20px 40%;}
+.btn a{ width:13px; height:13px; display:block; border-radius:50%; margin:0 10px 0 0; float:left; border:#FFF solid 2px;}
+.btn a.active{ background:#ea3266; }
+.btn a:hover{background:#ea3266;}	
+	
+.vr{ width:100%; float:left; background:url(../images/ONE.png) center top repeat; padding:0 0 50px 0;}
+.vr h1{ font-family:"Rubik Light"; font-size:20px; color:#FFF; text-align:center; padding:80px 0 80px 0;}
+.vr figure{width:100%;float:left;}
+.vr figure article{ width:96%;float:left; background:#303233; box-shadow:#000 0px 7px 50px; padding:0 2% 0 2%; margin:0 0 20px 0%;}
+.vr figure article h2{ text-align:center; padding:30px 0 20px 0;}
+.vr figure article h2 img{ width:30%}
+.vr figure article h3 {font-family:"Rubik Light";color:#FFF; font-size:19px; text-align:center; padding: 0 0 18px 0}
+.vr figure article h3 span{ font-family:"Rubik Medium"; color:#FFF; font-weight:bold;padding:0 12px 0 0;}
+.vr figure article p{ font-family:"Rubik Light"; font-size:15px; color:#FFF; text-align:center; line-height:20px;} 
+.vr figure article a{ width:100px; height:40px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:40px; text-align:center;background:#ea3266; border-radius:25px; margin:30px  auto 30px  auto;}
+.gap{ margin:0 1% 0 1%;}
+	
+.new{ width:100%; float:left; background:url(../images/service.png) center top no-repeat;}
+.new article{ width:100%; float:left; padding:60px 0 60px 0; text-align:center;}
+.new article img{ width:98%;}
+.new aside{ width:100%; float:right; background:#442f3a; padding:80px 0 80px 0%; text-align:center;}
+.new aside h1{ font-family:"Rubik Light"; font-size:30px; color:#FFF; line-height:40px; padding:0 0 20px 0;}
+.new aside h1 span{ display:block; font-family:"Rubik Medium";}
+.new aside p{ font-family:"Rubik Light"; font-size:13px; color:#FFF; line-height:25px; padding:0 15px 0 15px}
+.new aside a{width:138px; height:47px; color:#FFF; font-family:Roboto; font-size:14px; display:block; line-height:47px; text-align:center;background:#ea3266; border-radius:25px; margin:40px 0 0; margin:20px auto 0 auto;}	
+	
+
+.what{ width:100%; float:left; background:#1c1e20;}
+.what h1{ text-align:center; font-family:"Rubik Light"; font-size:26px; color:#FFF; padding:84px 0 100px 0; }
+.what h2{  text-align:center;}
+.what h2 img{ width:80%;}
+.what figcaption{ width:95%; float:left; padding:99px 0 105px 5%;}
+.what figcaption figure{ width:28%; float:left ; margin:0 10px 20px 0;  border-radius:25px;}
+.what figcaption figure ul { list-style:none; margin:0px; padding:0px;}
+.what figcaption figure ul li{ float:none; display:inline;}
+.what figcaption figure ul li a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; text-align:center; display:inline-block; padding: 70px 0 20px 0;}
+.what figcaption figure:hover{background:#15181c;}
+.what figcaption figure ul li a:hover{ color:#F90;}
+.what figcaption figure ul li a.box{ background:url(../images/box.png) center 10px no-repeat;}
+.what figcaption figure ul li a.remort{ background:url(../images/remort.png)center 10px no-repeat; }
+.what figcaption figure ul li a.cable{ background:url(../images/cabal.png) center 10px no-repeat;}
+.what figcaption figure ul li a.battery{ background:url(../images/battery.png) center 10px no-repeat;}
+.what figcaption figure ul li a.video{ background: url(../images/video.png) center 10px no-repeat;}
+
+.broo{ width:100%; float:left; background:#15181c; padding:0 0 119px 0;}
+.broo article{ width:80%; float:left;}
+.broo article h1{ padding:50px 0 20px 0;}
+.broo article h1 img{ width:40%;}
+.broo article a{ font-family:"Rubik Light"; font-size:12px; color:#FFF; display:block; line-height:30px;}
+.broo article a:hover{ color:#F90}
+.broo aside{ width:100%; float:right; padding:92px 0 0 0;}
+.broo aside figure{ width:100%; float:left; margin:0 110px 60px 0;}
+.broo aside figure h2{ font-family:"Rubik Light"; font-size:20px; color:#FFF; padding:0 0 10px 0;}
+.broo aside figure ul{ list-style:none; margin:0px; padding:0px;}
+.broo aside figure ul li{ }
+.broo aside figure ul li a{ font-family:"Rubik Light"; font-size:13px; color:#FFF; display:block; line-height:35px;}
+.broo aside figure ul li a:hover{ color:#F90;}
+.end{ width:100%; float:left; background:#262d35;}
+.end h1{ font-family:"open Sans"; font-size:10px; color:#FFF; padding:30px 0 30px 0; text-align:center;}
+
+	}	
+	
+
+
